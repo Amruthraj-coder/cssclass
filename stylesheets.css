@@ -1,4 +1,4 @@
-/* UNIVERSAL SELECTOR */
+/* UNIVERSAL SELECTOR
 p{
     color: brown;
 }
@@ -6,19 +6,27 @@ p{
     background-image: url(./images/123.webp); background-repeat: no-repeat; background-size: cover;
 }
      /* CLASS SELECTOR */
-.para{
+/* .para{
     color: azure;
-}
+} */
 
    /* ID SELECTOR */
-   #heading{
+   /* #heading{
     color: blue;
-   }
+   } */
    /* GROUPING SELECTOR */
-   .para,#heading{
+   /* .para,#heading{
     color: blueviolet;
-   }
+   } */
     /* SELECTS ONLY PTSGS IN PARA */
-    p.para{
+    /* p.para{
         color: green;
+        
+    } */ 
+    div{
+        background-color: black;
+        width: 50px ;
+        height: 50px;
+        
     }
+    

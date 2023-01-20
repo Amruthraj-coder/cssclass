@@ -1,0 +1,46 @@
+/* UNIVERSAL SELECTOR */
+p{
+    color: brown;
+}
+*{
+    background-image: url(./images/123.webp); background-repeat: no-repeat; background-size: cover;
+}
+     /* CLASS SELECTOR */
+.para{
+    color: azure;
+}
+
+   /* ID SELECTOR */
+   #heading{
+    color: blue;
+   }
+   /* GROUPING SELECTOR */
+   .para,#heading{
+    color: blueviolet;
+   }
+    /* SELECTS ONLY PTSGS IN PARA */
+    p.para{
+        color: green;
+        
+    }
+    mail{
+        border-color: chocolate;
+        
+    }
+    #dd {
+    position: fixed;
+    left: 0%;
+    width: 250px;
+    height: 100%;
+    background-color: black;
+    }
+    #dd h1{
+        font-size: 22px;
+        color: red;
+        font-style: italic;
+        background-color: grey;
+        padding: 20px;
+    }
+    #dd .s{
+
+    }

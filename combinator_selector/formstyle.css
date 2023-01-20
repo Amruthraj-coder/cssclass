@@ -1,0 +1,25 @@
+.div input{
+    border-radius: 5px;
+    border-color:royalblue;
+    padding: 5px;
+    
+}
+.div{
+    line-height: 40px;
+}
+/* .div label{ */
+    /* font-family:Verdana, Geneva, Tahoma, sans-seriff; */
+    /* font-size:medium ; */
+    
+
+/* } */
+#zip{
+     size: 5px;
+     
+}
+*{
+    background-color: antiquewhite;
+}
+body{
+    font-family: 'Explora', cursive;
+}

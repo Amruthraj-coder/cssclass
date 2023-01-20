@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Form for communication:</title>
+<link rel="stylesheet" href="formstyle.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Explora&display=swap" rel="stylesheet">
+
+    </head>
+     <body>
+        <h1>Form </h1>
+        
+        <form action="https://www.rapidtables.com/tools/notepad.html" method="post">
+            <div class="div">
+            <label for="mail"  >Email Address:</label><br>
+            <input type="email" name="mail" placeholder="enter here">
+        </div>
+
+        <div class="div">
+            <label for="name">Name:</label><br>
+            <input type="text" name="fname" placeholder="first name">
+            <input type="text" name="lname " placeholder="last name">
+        </div>
+        <div class="div">
+            <label for="add">Address:</label><br>
+            <input type="text" name="street" placeholder="street name"><br>
+            <input type="text" name="add" placeholder="office,suit...">
+        </div>
+        <div class="div">
+            <label for="city">City</label><br>
+            <input type="text" name="city">
+            <select name="state" style="padding:5px" id="state">
+                <option value="andhra pradesh">Andhra pradesh</option>
+                <option value="Telangana">Telangana</option>
+                <option value="karnataka">Banglore</option>
+            </select>
+            <input id="zip" type="number" name="zip" placeholder="Zip" disabled>
+        </div>
+        <div class="div">
+            <label for="radio">what radio technologies are you using?</label><br>
+            <input type="checkbox" name="radio1" value="1">5g
+            <input type="checkbox" name="radio2" value="1">4g
+            <input type="checkbox" name="radio3" value="1">3g
+            <input type="checkbox" name="radio4" value="1">2g
+        </div>
+        <div class="div">
+           <fieldset>
+             <legend><label for="tech">how much data do upu expect to use in each month?</label></legend><br>
+             <input type="radio" name="x">1Gb-10Gb   
+             <input type="radio" name="x">11Gb-20Gb
+             <input type="radio" name="x">21Gb-30Gb
+             <input type="radio" name="x">31Gb-40Gb
+            </fieldset>
+        </div>
+        <div class="div">
+            <label for="datetime">subscription duration?</label><br>
+            <input type="datetime-local" name="date time">
+            <input type="month" name="month">
+            <label for="to"> To </label>
+            <input type="datetime-local" name="date time">
+            <input type="month" name="month">
+        </div>
+        <div class="div">
+            <label for="favcolor">what is your favorite color?</label><br>
+            <input type="color">
+        </div>
+        <div class="div">
+            <input type="submit" value="Submit"><br>
+            <input type="reset" value="Reset"><br>
+            <label for="range">Maximun range?</label><br>
+            <input type="range" name="range">
+        </div>
+        <summary>fdgadfg</summary>
+        </form>
+     </body>
+    </html>
