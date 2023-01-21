@@ -1,7 +1,7 @@
 .div input{
     border-radius: 5px;
     border-color:royalblue;
-    padding: 5px;
+    
     
 }
 .div{
@@ -22,4 +22,39 @@
 }
 body{
     font-family: 'Explora', cursive;
+font-family: 'Open Sans', sans-serif;
+}
+.inclass{
+    width: 18%;
+    height: 25px;
+}
+#state{
+    width: 18%;
+    height: 25px;
+}
+.title{
+    font-size: unset;
+    font-weight: 600;
+margin-bottom: 30px;
+}
+select{
+height: 40px;
+    border-radius: 5px;
+    border-width: medium;
+}
+input[type="text"]
+{
+    color: brown;
+}
+#sub{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 5px;
+    width: 15px;
+
+}
+#sub:hover{
+    color: white;
+    background-color: black;
 }
